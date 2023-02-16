@@ -16,7 +16,7 @@ import javax.ejb.EJB;
  */
 public class Main {
 
-    @EJB(name = "CelsiusConverterBean")
+    @EJB
     private static CelsiusConverterBeanRemote celsiusConverterBean;
     
     /**
